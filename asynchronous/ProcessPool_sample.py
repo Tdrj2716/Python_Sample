@@ -1,8 +1,8 @@
-    """concurrent.futuresのProcessPoolExecutorのサンプル
+"""concurrent.futuresのProcessPoolExecutorのサンプル
 
     複数の巨大な数の素数判定を並列処理によって解く
     並行処理であるasyncioで行った例(async_prime.py)と比較すると若干速いことが分かる
-    """
+"""
 from concurrent import futures
 import time
 
