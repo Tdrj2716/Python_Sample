@@ -1,3 +1,5 @@
+    """asyncioによるCPUバウンドな処理の例
+    """
 import asyncio
 import time
 
